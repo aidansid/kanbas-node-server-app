@@ -123,5 +123,19 @@ export default[{
     "section": "S101",
     "lastActivity": "2020-12-05",
     "totalActivity": "30:00:00"
+  },
+  {
+    "_id": "001",
+    "username": "admin",
+    "password": "admin",
+    "firstName": "Admin",
+    "lastName": "Admin",
+    "email": "admin@admin.com",
+    "dob": "1999-01-01",
+    "role": "ADMIN",
+    "loginId": "001234560A",
+    "section": "S101",
+    "lastActivity": "2020-12-05",
+    "totalActivity": "100:00:00"
   }
 ]
