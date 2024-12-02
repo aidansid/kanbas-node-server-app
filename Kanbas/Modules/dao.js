@@ -1,7 +1,7 @@
-import Database from "../Database/index.js";
+import model from "./model.js";
 
-export function findModulesForCourse(courseId) {
-  return model.find({ course: courseId });
+export function findModulesForCourse(courseNumber) {
+  return model.find({ course: courseNumber });
 }
 export function createModule(module) {
   delete module._id
@@ -13,5 +13,3 @@ export function deleteModule(moduleId) {
 export function updateModule(moduleId, moduleUpdates) {
   return model.updateOne({ _id: moduleId }, moduleUpdates);
 }
-
- 
